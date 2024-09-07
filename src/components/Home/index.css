@@ -1,0 +1,57 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.welcome-heading {
+  color: #334155;
+  font-size: 52px;
+  margin: 0;
+}
+
+.plz-register-para {
+  color: #475569;
+  font-size: 24px;
+}
+
+.register-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+.register-btn:hover {
+  transform: scale(1.02);
+}
+
+.register-btn:active {
+  transform: scale(0.96);
+}
+
+.meetup-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.meetup-img-container img {
+  width: 60%;
+}
+
+.hello-james-heading {
+  color: #2563eb;
+  font-size: 52px;
+  margin: 0;
+}
+
+.welcome-para {
+  color: #475569;
+  font-size: 24px;
+}
